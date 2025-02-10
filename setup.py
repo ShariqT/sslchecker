@@ -5,7 +5,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
   name='sslcheck',
-  version='0.1.1',
+  version='0.1.2',
   packages=['sslcheck'],
   author = "Shariq Torres",
   description = "Check the status of any SSL Certificate in a Request-like API",
