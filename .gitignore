@@ -2,3 +2,5 @@
 .sslcheck/
 testing/__pycache__/
 sslcheck/__pycache__/
+dist/
+sslcheck.egg-info/

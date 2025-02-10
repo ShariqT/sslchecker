@@ -21,6 +21,6 @@ print(checker.days_until_expiry())
 # 80
 ```
 
-checker.certificate_info is an instance of the [x.509 Certificate Class](https://cryptography.io/en/latest/x509/reference/#cryptography.x509.Certificate) and will have the full certificate information. 
+`checker.certificate_info` is an instance of the [x.509 Certificate Class](https://cryptography.io/en/latest/x509/reference/#cryptography.x509.Certificate) and will have the full certificate information. 
 
 
