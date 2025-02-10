@@ -1,0 +1,4 @@
+.pytest_cache/
+.sslcheck/
+testing/__pycache__/
+sslcheck/__pycache__/
