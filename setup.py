@@ -1,4 +1,7 @@
 from setuptools import setup
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
 setup(
   name='sslcheck',
@@ -9,5 +12,7 @@ setup(
   author_email="shariq.torres@gmail.com",
   test_require=['pytest'],
   setup_requires=['pytest-runner'],
-  license='GPL-2.0'
+  license='GPL-2.0',
+  long_description=long_description,
+  long_description_content_type='text/markdown'
 )
