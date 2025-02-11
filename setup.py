@@ -5,9 +5,10 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
   name='ssldatechecker',
-  version='0.1.2',
+  version='0.1.3',
   packages=['ssldatechecker'],
   author = "Shariq Torres",
+  url='https://github.com/ShariqT/sslchecker',
   description = "Check the status of SSL certificates, mainly the exipiration date",
   author_email="shariq.torres@gmail.com",
   test_require=['pytest'],
