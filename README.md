@@ -1,4 +1,4 @@
-# SSLChecker
+# SSL DateChecker
 
 The purpose of this library is to get the status of SSL certificates -- mainly to make sure that the certificate is still valid.
 
@@ -6,9 +6,9 @@ The purpose of this library is to get the status of SSL certificates -- mainly t
 
 ```python
 
-import sslcheck
+import ssldatechecker
 
-checker = sslcheck.get("google.com")
+checker = ssldatechecker.get("google.com")
 checker.check_certificate()
 
 print(checker.certificate_info)

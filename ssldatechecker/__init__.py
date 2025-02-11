@@ -6,7 +6,7 @@ import pprint
 from datetime import datetime
 import pytz
 
-class Sslcheck():
+class SSLDateChecker():
   def __init__(self, domain):
     self.domain = domain
     self.certificate_info = None
@@ -48,4 +48,4 @@ class Sslcheck():
 
 
 def get(domain):
-  return Sslcheck(domain)
+  return SSLDateChecker(domain)

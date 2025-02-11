@@ -1,6 +1,6 @@
 .pytest_cache/
 .sslcheck/
 testing/__pycache__/
-sslcheck/__pycache__/
+ssldatechecker/__pycache__/
 dist/
 sslcheck.egg-info/
